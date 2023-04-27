@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Range Slider</title>
+<!--       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+      <style type="text/css">
+         .shipping-outer {
+         border: 3px solid #000;
+         }
+         .border-bottomm{
+         border-bottom: 3px solid #000;
+         }
+         .shipping-main{
+         border-right: 3px solid #000;
+         }
+         .shipping-outer p {
+         font-weight: bold;
+         font-size: 12px;
+         line-height: 16px;
+         margin-bottom: 0;
+         }
+         .shipping-outer span {
+         display: block;
+         padding-bottom: 20px;
+         }
+         .deliver-add, .shippded-add {
+         padding-top: 24px;
+         }
+         .order-img {
+         padding: 10px;
+         }
+         .ship-date p{
+         font-weight: 600;
+         }
+         .termspara p{
+         font-size: 10px;
+         }
+         .termspara{
+         padding-left: 10px;
+         }
+         .shipp-bill {
+         padding: 7px;
+         height: 245px;
+         }
+         .order-img img {
+         width: 100%;
+         max-width: 168px;
+         }
+         .delcp-right{
+         text-align: right;
+         }
+         span.headspan {
+         font-size: 37px;
+         font-weight: bold;
+         }
+         .delcp-left h5, .delcp-right h5 {
+         font-weight: bold;
+         }
+      </style>
+   </head>
+   <body>
+      <section class="shipping-doc">
+         <div class="container">
+            <div class="shipping-outer">
+               <div class="row justify-content-center">
+                  <div class="col-md-7">
+                     <div class="shipping-main">
+                        <div class="deliver-row border-bottomm">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="deliver-to">
+                                    <span>DELIVER To:</span>
+                                    <p>Naruto Uzumaki</p>
+                                    <p>House 221B, Leaf Village Near Hoka- ge House</p>
+                                 </div>
+                                 <div class="deliver-add">
+                                    <p>New Delhi</p>
+                                    <p>DELHI, 110002, India</p>
+                                    <p>MOBILE NO. : 9876543210</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="shipped-by">
+                                    <span>Shipped By (If undelivered, return to) :</span>
+                                    <p class="pb-3">Shaktiman</p>
+                                    <p>Aligarh Noida</p>
+                                 </div>
+                                 <div class="shippded-add">
+                                    <p> Jammu, Jammu & Kashmir</p>
+                                    <p>180001, India, Mobile No.: 9313079252</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="order-row border-bottomm">
+                           <div class="order-img">
+                              <span>ORDER # : 1911919191</span>
+                              <img src="https://cdn.pixabay.com/photo/2014/04/02/16/19/barcode-306926__480.png">
+                           </div>
+                        </div>
+                        <div class="delcp-data border-bottomm p-3">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="delcp-left">
+                                    <h5>7888 3056 7028</h5>
+                                    <span class="headspan">02 DELCP</span>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="delcp-right ">
+                                    <h5>AA</h5>
+                                    <h5>STANDARD OVERNIGHT</h5>
+                                    <h5>110002 -IN DEL</h5>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="shipp-bill border-bottomm">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="ship-date">
+                                    <p>BILL T/C : SENDER | METER NO.: 111911198</p>
+                                    <p>BILL D/T : SENDER | WEIGHT : 2.5 KG</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="ship-date">
+                                    <p>SHIPMENT DATE : 2019-08-01 15:50:43</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="ship-date termspara border-bottomm">
+                           <span class="pb-0">TERMS AND CONDITIONS:</span>
+                           <p>1. Subject to the FedEx Conditions of Carriage, which limits the liability of FedEx for loss, delay or damage to consignments.</p>
+                           <p>2. Visit www.fedex.com/in to view the Conditions of Carriage.</p>
+                        </div>
+                        <div class="ship-date border-bottomm termspara">
+                           <p>All disputes are subject to Jammu & Kashmir jurisdiction. Goods once sold will only be taken back or exchanged as per the store's exchange/return policy.</p>
+                        </div>
+                        <div class="ship-date">
+                           <p>THIS IS AN AUTO-GENERATED LABEL AND DOES NOT NEED SIGNATURE</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="footer-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+               </div>
+            </div>
+         </div>
+      </footer>
+<!--       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+   </body>
+</html>
