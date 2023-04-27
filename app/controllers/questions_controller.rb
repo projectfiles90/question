@@ -8,6 +8,7 @@ class QuestionsController < ApplicationController
     question = Question.new(question_params)
     if question.save
       render json: question, status: :created
+      
     else
       render json: { errors: question.errors.full_messages }, status: :unprocessable_entity
     end
